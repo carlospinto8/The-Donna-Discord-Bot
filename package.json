@@ -1,0 +1,27 @@
+{
+  "name": "the-donna-discord-bot",
+  "version": "1.0.0",
+  "description": "general purpose discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlospinto8/The-Donna-Discord-Bot.git"
+  },
+  "author": "Carlos Pinto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlospinto8/The-Donna-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/carlospinto8/The-Donna-Discord-Bot#readme",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "eslint": "^9.20.1"
+  }
+}

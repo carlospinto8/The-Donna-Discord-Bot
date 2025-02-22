@@ -19,7 +19,8 @@ for (const folder of commandFolders) {
 		const command = require(filePath);
 		if ('data' in command && 'execute' in command) {
 			commands.push(command.data.toJSON());
-		} else {
+		}
+		else {
 			console.log(`[WARNING] The command at ${filePath} is missing a required "data" or "execute" property`);
 		}
 	}
@@ -39,8 +40,9 @@ const rest = new REST().setToken(token);
 			{ body: commands },
 		);
 
-        console.log(`Successfully loaded ${data.length} application (/) commands`);
-	} catch (error) {
+		console.log(`Successfully loaded ${data.length} application (/) commands`);
+	}
+	catch (error) {
 		console.error(error);
 	}
 });

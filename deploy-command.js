@@ -15,7 +15,7 @@ for (const folder of commandFolders) {
 	const commandFiles = fs.readdirSync(commandsPath);
 	// Grab all SlashCommandBuilder#toJson() output of each command's data for deployment.
 	for (const file of commandFiles) {
-		const filePath = Path2D.join(commandsPath, file);
+		const filePath = path.join(commandsPath, file);
 		const command = require(filePath);
 		if ('data' in command && 'execute' in command) {
 			commands.push(command.data.toJSON());

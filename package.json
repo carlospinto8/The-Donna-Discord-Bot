@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/carlospinto8/The-Donna-Discord-Bot#readme",
   "dependencies": {
+    "@giphy/js-fetch-api": "^5.6.0",
     "discord.js": "^14.18.0",
     "dotenv": "^16.4.7"
   },
